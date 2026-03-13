@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Alejandro López</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <div class="header">
+                    <div>Alejandro López</div>
+                </div>
+                <div>
+                    <p>
+                        Hi there, I'm Alejandro and I live in Lisbon, Portugal.
+                    </p>
+                    <p>I like building and selling software.</p>
+                    <p>
+                        Beyond code and business, my interests include math,
+                        classical music, painting, and writing.
+                    </p>
+                </div>
+                <div>
+                    <div class="section-title">Projects</div>
+                    <ul class="list">
+                        <li>
+                            <a href="https://nummo.ai" target="_blank">Nummo</a
+                            >: accounting software powered by AI.
+                        </li>
+                        <li>
+                            <a href="https://kerwis.co">Kerwis</a>: my brand of
+                            pet furniture.
+                        </li>
+                        <li>
+                            <a href="https://mathfun.com">Choose Right</a>: my
+                            newsletter about behavioral economics.
+                        </li>
+                        <li>
+                            <a href="https://playkori.fly.dev" target="_blank"
+                                >Kori</a
+                            >: board game inspired by go.
+                        </li>
+                        <li>
+                            <a href="https://clovegrid.com" target="_blank"
+                                >Clovegrid</a
+                            >: my copywriting studio.
+                        </li>
+                    </ul>
+                </div>
+                <footer class="footer">
+                    <div>
+                        <a
+                            href="https://www.linkedin.com/in/alejandro-lopez-64539717b/"
+                            target="_blank"
+                            >Linkedin</a
+                        >
+                    </div>
+                    <div>
+                        <a href="https://x.com/itsalejandrolr" target="_blank">
+                            X</a
+                        >
+                    </div>
+                    <div>
+                        <button
+                            onclick="
+                                navigator.clipboard
+                                    .writeText('hello@aleloro.com')
+                                    .then(() => {
+                                        this.textContent = 'Copied!';
+                                        setTimeout(
+                                            () => (this.textContent = 'Email'),
+                                            2000,
+                                        );
+                                    })
+                            "
+                        >
+                            Email
+                        </button>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
